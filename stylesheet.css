@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+p{
+    /*can get fonts from Google Fonts, selects regular 400, import url and stuff*/
+    font-family: 'Single Day', cursive;
+    color: rgb(6, 117, 62);
+}
+
+h2{
+    font-family: 'Single Day', cursive;
+    color: rgb(6, 117, 62);
+}
+
+.second_paragraph{
+    text-align: center;
+    /*can be written as Left(INSERT NUMBER ON HOW LEFT*/
+    font-size: 30px;
+}
+
+.title_expirement{
+    text-align: center;
+    font-size: 50px;
+}
