@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+div{
+    font-family: 'single day', cursive;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'single day', cursive;
+    font-size: 30px;
+    text-align: left;
+}
+img{
+    width: 400px;
+    height: 4%;
+    
+}
+
+#mainButton{
+    font-family: 'single day', cursive;
+    font-size: 20px;
+    background-color:rgb(238, 243, 248);
+    border:solid 2px rgb(0, 0, 0);
+}
+
+/*when it's being clicked*/
+#mainButton:active{
+    font-family: 'single day', cursive;
+    font-size: 20px;
+    background-color:rgb(37, 70, 102);
+    border:solid 2px rgb(0, 0, 0);
+}
+
