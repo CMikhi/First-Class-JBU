@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+div{
+    font-family:'Protest Revolution', sans-serif;
+    font-size: 30px;
+    background-color: rgb(196, 143, 74);
+
+}
+
+.box{
+
+    text-align: center;
+    width: 400px;
+    display: inline;
+}
+
+.container{
+    margin:30px;
+    display: flex;
+    /*flex-flow: row wrap;     -- pretty much the shorter version of below*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color:bisque;
+    height: 500px;
+    
+}
+
+button{
+    font-family:'Protest Revolution', sans-serif;
+    font-size: 20px;
+    height:50px;
+    width: 200px;
+}
+
+
+.button2{
+    flex-shrink: 3;
+}
