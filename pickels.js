@@ -14,3 +14,7 @@ function bgColors(){
 function hide_display(){
     document.getElementById('box').style.display="none";
 }
+
+
+let var1= "redict"
+`im[pin;ey ${var1}}`
