@@ -7,35 +7,30 @@ function sayHi(name1){
     heading1.textContent = `hi, ${name1}`;
 }
 
-function Get_firstChar()
+function Get_firstChar(name1)
 {
-    name1[0]
-    return name1
+    return name1[0]
 }
 
-function Get_lastChar()
+function Get_lastChar(name1)
 {
-    name1.at[-1]
-    return name1
+    return name1.at[-1]
 }
 
-function Get_number_of_characters()
+function Get_number_of_characters(name1)
 {
-    name1.length
-    return name1
+    return name1.length
 }
 
 
-function lower()
+function lower(name1)
 {
-    name1.toLowerCase()
-    return name1
+    return name1.toLowerCase()
 }
 
-function CapitalizaCorrectly()
+function CapitalizaCorrectly(name1)
 {
-    name1.toLowerCase()
-    return name1
+    return name1.toLowerCase()
 }
 
 sayHi(name1);
