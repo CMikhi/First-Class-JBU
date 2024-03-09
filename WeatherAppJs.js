@@ -70,7 +70,7 @@ function fetchWeather(lat,lon){
     .then((data) => {
         
     
-        weather.textContent = data.current["temperature_2m"];
+        weather.textContent = data.current["temperature_2m"] + "°"; //idk if the degree symborl works like that
 
 })
 }
@@ -87,9 +87,8 @@ searchBar.onkeyup=()=>{
             accessAPIinformation(data);
             fetchWeather(data[0].lat,data[0].lon);
         } 
-
-)
-    }
+        )
+}
 
 
   
