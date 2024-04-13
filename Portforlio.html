@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="flex flex-row justify-around py-8">
-            <img class="h-11 w-18 -mr-40 -mt-2" src="assets_JBU\OrangeLogo.png">
+            <img class="h-11 w-18 -mr-40 flex item-center -mt-2" src="assets_JBU\OrangeLogo.png"> <!--Why is flex item-center not worrking ;^;-->
             <h1 class="font-bold">Profile Page</h1>
             <!--<input class="border-2 border-black h-8 w-1/6" type="text"/>-->
 
-            <div class="flex w-1/6 border-2 bg-gray-800">
+            <div class="flex w-1/6 border-2">
                 <div classes="h-full w-10 grid grid-cols-1 place-content-center place-item-center">
                     <svg class="w-6 h-6" width="64px" height="64px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15.989 15.4905L19.5 19.0015" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                 </div>
@@ -28,10 +28,10 @@
 
 
     </div>
-    <div id="content" class="bg-yellow-100 h-[90svh]"> 
+    <div id="content" class="h-[90svh]"> 
         <div id="top-div" class="bg-blue-100 h-2/5 flex flex-row">
             <div id = "left-image" class="bg-green-100 w-2/5">
-                <img class="ml-24" src="assets_JBU\personpfp.jpg">
+                <img class="ml-56 mt-14" src="assets_JBU\personpfp.jpg">
             </div>
             <div id="right-info" class ="bg-red-100 w-3/5 flex flex-col">
                 <div id = "top-half-info" class="bg-orange-100 h-1/2">
@@ -60,7 +60,66 @@
         </div>
 
         <div id="bottom-div" class="flex flex-row h-3/5">
-            <div id="left-side" class=""></div>
+            <div id="left-side" class="mt-10"> 
+                <div id="works" class="ml-24">
+                    <h3 id="work-tag" class="text-xs font-bold text-neutral-400	 mb-6">WORKS</h3>
+                    <h1 class="font-bold">Spotify New York</h1>
+                    <div id="sub-info" class="text-sm mb-[20px] text-neutral-400">
+                        <h2>170 William Street</h2>
+                        <h2>New York, NY 10038-78 272-312-51 </h2>
+                    </div>
+
+                    <h1 class="font-bold">Metropolitan Museum</h1>
+                    <div id="sub-info" class="text-sm mb-[20px] text-neutral-400	"> <!--Why isnt the margin-bottom working????-->
+                        <h2>332 E. Over St.</h2>
+                        <h2>New York, NY 10038-78 272-312-51 </h2>
+                    </div>
+                </div>
+
+                <div id="skills" class="ml-24">
+                    <h3 id="skill-tag" class="text-xs font-bold text-neutral-400 mb-6">SKILLS</h3>
+                    <div class="text-sm font-medium">
+                        <h2>Graphic Design</h2>
+                        <h2>Python</h2>
+                        <h2>Basic Java</h2>
+                        <h2>HTMl-Tailwind-JS</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="right-side" class="mt-10 ml-56"> 
+
+                <h3 id="contact-tag" class="text-xs font-bold text-neutral-400 mb-6">CONTACT INFORMATION</h3>
+                <div class="flex flex-row">
+                    <div id="catagories" class="text-sm font-medium">
+                        <h2 class="mb-6">Phone:</h2>
+                        <h2 class="mb-11">Address:</h2>
+                        <h2 class="mb-6">Email:</h2>
+
+                    </div>
+                    <div id="catagories-anwsers" class="text-sm font-medium ml-14">
+                        <h2 class="mb-6 text-sky-500">1+ (479)644-3569</h2>
+                        <h2 class="">833 NW Evans Cir</h2>
+                        <h2 class="mb-6">Bentonvile AR</h2>
+                        <h2 class="mb-6 text-sky-500">hunterc2408@gmail.com</h2>
+                    </div>
+                </div>
+
+                <h3 id="contact-tag" class="text-xs font-bold text-neutral-400 mb-6">CONTACT INFORMATION</h3>
+                <div class="flex flex-row">
+                    <div id="catagories" class="text-sm font-medium">
+                        <h2 class="mb-6">Birthday:</h2>
+                        <h2 class="mb-11">Gender:</h2>
+
+                    </div>
+                    <div id="catagories-anwsers" class="text-sm font-medium ml-14">
+                        <h2 class="mb-6">January 24, 2008</h2>
+                        <h2 class="mb-6">Female</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 </body>
